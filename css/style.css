@@ -241,6 +241,13 @@ body {
 
 .features {
     margin-top: 100px;
+    /* background; */
+}
+
+.right-line {
+    position: absolute;
+    right: 0;
+    top: 1082px;
 }
 
 .features-list {
@@ -289,4 +296,112 @@ body {
 
 .features-description {
     color: #FFFFFF99;
+}
+
+.learn {
+    margin-top: 150px;
+}
+
+.learn-title {
+    font-size: 36px;
+    font-weight: 6600;
+    line-height: 54px;
+    text-align: center;
+}
+
+.learn-des {
+    text-align: center;
+    line-height: 27px;
+    color: #FFFFFF66;
+}
+
+.learn-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.learn-item {
+    position: relative;
+    padding: 12px;
+    margin-left: 22px;
+    background: linear-gradient(180deg, #202246 -53.38%, rgba(40, 43, 87, 0.17) 100%);
+    border-radius: 20px;
+    width: 276px;
+    border: 3px solid;
+    border-image-source: linear-gradient(180deg, rgba(50, 52, 101, 0.5) 0%, rgba(50, 52, 101, 0.15) 100%);
+    list-style: none;
+}
+
+.learn-item:first-child {
+    margin-left: -22px;
+}
+
+hr {
+    border: 1px solid #292B56
+}
+
+.learn-item img {}
+
+.videos {
+    position: absolute;
+    top: 130px;
+    left: 22px;
+    padding: 6px 16px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    color: #ffffff9a;
+}
+
+.item-type {
+    color: #3BF5BD;
+}
+
+.item-title {
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+
+.item-des {
+    color: #FFFFFF66;
+}
+
+.mentor {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 19px;
+}
+
+.item-mentor {
+    margin-left: 14px;
+}
+
+.mentor-name {
+    margin-bottom: 2px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.item-mentor p {
+    color: #FFFFFF66;
+}
+
+.clas {
+    margin-top: 28px;
+    display: inline-block;
+}
+
+.all {
+    width: 200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+    color: #F5443B;
+    border: 2px solid #F5443B;
+    border-radius: 20px;
 }

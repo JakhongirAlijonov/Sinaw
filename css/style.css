@@ -398,10 +398,149 @@ hr {
 .all {
     width: 200px;
     text-align: center;
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
+    display: block;
     padding: 16px;
     color: #F5443B;
     border: 2px solid #F5443B;
     border-radius: 20px;
+    text-decoration: none;
+}
+
+.videos-section {
+    margin-top: 150px;
+}
+
+.video-title {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 54px;
+}
+
+.video-des {
+    line-height: 27px;
+    color: #FFFFFF66;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.video-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-1 {
+    margin-right: -180px;
+}
+
+.video-2 {
+    border-radius: 15px;
+}
+
+.video-3 {
+    margin-left: -180px;
+    z-index: -1;
+}
+
+.more-videos {
+    margin-top: 50px;
+    margin-left: 850px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.pricing {
+    margin-top: 150px;
+}
+
+.pricing-title {
+    color: #FFFFFFCC;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    text-align: center;
+}
+
+.pricing-des {
+    margin-top: 20px;
+    color: #FFFFFF66;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.price-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.price-item {
+    list-style: none;
+    background: linear-gradient(180deg, #202246 -53.38%, rgba(40, 43, 87, 0.31) 100%);
+    border: 3px solid;
+    border-image-source: linear-gradient(180deg, rgba(50, 52, 101, 0.5) 0%, rgba(50, 52, 101, 0.15) 100%);
+    padding: 20px 18px;
+    border-radius: 20px;
+    height: 515px;
+}
+
+.cost {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 29px;
+}
+
+.cost-img {
+    padding: 10px;
+    border: 1px solid #3BF5BD;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+.cost-text {
+    color: #F5453D;
+}
+
+sub {
+    color: #fff;
+}
+
+.price-feature {
+    margin-top: 29px;
+}
+
+.price-feature-item {
+    margin-top: 16px;
+}
+
+.price-feature-item:first-child {
+    margin-top: 0;
+}
+
+.price {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    color: #F5443B;
+    border: 2px solid #F5443B;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.pro {
+    background: #F5443B;
+    color: #fff;
+}
+
+.current {
+    opacity: 0.5;
 }

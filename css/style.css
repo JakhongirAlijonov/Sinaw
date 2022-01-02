@@ -238,3 +238,55 @@ body {
     line-height: 21px;
     font-size: 14px;
 }
+
+.features {
+    margin-top: 100px;
+}
+
+.features-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.featues-item {
+    list-style: none;
+    margin-left: 97px;
+}
+
+.featues-item:first-child {
+    margin-left: 0;
+}
+
+.g1::before {
+    content: url('../images/heroicons-solid_user-group.svg');
+    margin-left: -25px;
+    border: 1px solid;
+    border-image-source: linear-gradient(180deg, #FF7D7D 0%, #2C2E59 100%);
+    border-radius: 50%;
+}
+
+.g2::before {
+    content: url('../images/teacher-at-the-blackboard\ 1.svg');
+    margin-left: -25px;
+    border: 1px solid;
+    border-image-source: linear-gradient(180deg, #4DB88D 0%, #2C2E59 100%);
+    border-radius: 50%;
+}
+
+.g3::before {
+    content: url('../images/bx_bxs-book-heart.svg');
+    margin-left: -25px;
+    border: 1px solid;
+    border-image-source: linear-gradient(180deg, #B8A74D 0%, #2C2E59 100%);
+    border-radius: 50%;
+}
+
+.features-title {
+    font-size: 20px;
+    color: #FFFFFFB2;
+}
+
+.features-description {
+    color: #FFFFFF99;
+}
